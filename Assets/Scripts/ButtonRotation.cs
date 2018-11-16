@@ -55,7 +55,7 @@ void Update () {
 			     {
 				 spriteNext.enabled=false;
 			     }
-			
+			}
 			    if(switchToNext!=null)
 			     {
 					if(switchToNext!=obj)	
@@ -67,7 +67,7 @@ void Update () {
 			         }
 					
 
-			     }
+			     
 			
 		    }
 		 	}
