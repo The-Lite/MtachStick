@@ -24,8 +24,8 @@ void Start ()
 void Update ()
  {
 
-	//	if(win.Correct==false && check.PosndRot==false ||win.Correct==true && check.PosndRot==false || win.Correct==false && check.PosndRot==true )/*Cheak if all conditions to pause the game whene the player win */
-		//{
+	/	if(win.Correct==false && check.PosndRot==false ||win.Correct==true && check.PosndRot==false || win.Correct==false && check.PosndRot==true )/*Cheak if all conditions to pause the game whene the player win */
+			{
 
 		
 			if(Selected==true)
@@ -45,7 +45,7 @@ void Update ()
 				rend.color=Color.red;
 				
 				}
-		//}
+			}
 	}
 
 void OnMouseOver()
