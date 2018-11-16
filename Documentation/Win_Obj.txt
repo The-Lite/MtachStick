@@ -1,0 +1,3 @@
+it's a box collider (triggred) 
+the function OntriggerStay() = verify the rotation and the position of the correct object 
+you can modifie your angle 	
