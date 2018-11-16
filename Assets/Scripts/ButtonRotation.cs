@@ -29,7 +29,7 @@ void Start () {
 void Update () {
 					
 		if(win.Correct==false && check.PosndRot==false ||win.Correct==true && check.PosndRot==false || win.Correct==false && check.PosndRot==true ) /*Cheak if all conditions to pause the game whene the player win */
-	/	{
+		{
 		  if(Input.GetMouseButton(1))
 			{
 		      curspos =Camera.main.ScreenToWorldPoint(Input.mousePosition);//geting info from the mouse in the game 
